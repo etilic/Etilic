@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Etilic.Core", "Etilic.Core\Etilic.Core.csproj", "{B869891A-2FC0-444B-9E98-CEAB90D67D00}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Etilic.Name", "Etilic.Name\Etilic.Name.csproj", "{F326267C-741E-4C8E-9DA4-D0E9B016940E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B869891A-2FC0-444B-9E98-CEAB90D67D00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B869891A-2FC0-444B-9E98-CEAB90D67D00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B869891A-2FC0-444B-9E98-CEAB90D67D00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F326267C-741E-4C8E-9DA4-D0E9B016940E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F326267C-741E-4C8E-9DA4-D0E9B016940E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F326267C-741E-4C8E-9DA4-D0E9B016940E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F326267C-741E-4C8E-9DA4-D0E9B016940E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

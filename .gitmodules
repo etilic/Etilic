@@ -1,3 +1,7 @@
 [submodule "Etilic.Core"]
 path = Etilic.Core
 url = https://github.com/etilic/Etilic.Core
+
+[submodule "Etilic.Name"]
+path = Etilic.Name
+url = https://github.com/etilic/Etilic.Name
