@@ -5,3 +5,19 @@ url = https://github.com/etilic/Etilic.Core
 [submodule "Etilic.Name"]
 path = Etilic.Name
 url = https://github.com/etilic/Etilic.Name
+
+[submodule "Etilic.Identity"]
+path = Etilic.Identity
+url = https://github.com/etilic/Etilic.Identity
+
+[submodule "Etilic.DC"]
+path = Etilic.DC
+url = https://github.com/etilic/Etilic.DC
+
+[submodule "Etilic.DC.GoogleCalendar"]
+path = Etilic.DC.GoogleCalendar
+url = https://github.com/etilic/Etilic.DC.GoogleCalendar
+
+[submodule "DataImporter"]
+path = DataImporter
+url = https://github.com/etilic/DataImporter

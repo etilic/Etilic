@@ -7,6 +7,20 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Etilic.Core", "Etilic.Core\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Etilic.Name", "Etilic.Name\Etilic.Name.csproj", "{F326267C-741E-4C8E-9DA4-D0E9B016940E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Etilic.Identity", "Etilic.Identity\Etilic.Identity.csproj", "{5CCB51D9-9E87-4F47-A4CE-7D1706B9FAA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{E27ED549-2907-4643-A3C9-DAFDA207A7EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataImporter", "DataImporter\DataImporter.csproj", "{8A723B7A-B225-44C6-B665-D68F06E06A23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Etilic.DC", "Etilic.DC\Etilic.DC.csproj", "{FB9EFD5B-4D9E-4F33-BD31-FA5170FC01AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Etilic.DC.GoogleCalendar", "Etilic.DC.GoogleCalendar\Etilic.DC.GoogleCalendar.csproj", "{3FFA9E18-AF82-40FD-977E-4C33CD549419}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Etilic.DC.GitHub", "Etilic.DC.GitHub\Etilic.DC.GitHub.csproj", "{11670A18-19A0-4DDF-B791-3BB95355D69D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Etilic.Courses", "Etilic.Courses\Etilic.Courses.csproj", "{9D60BF04-C5A9-4EB7-AE9A-0C408665284E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,8 +35,35 @@ Global
 		{F326267C-741E-4C8E-9DA4-D0E9B016940E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F326267C-741E-4C8E-9DA4-D0E9B016940E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F326267C-741E-4C8E-9DA4-D0E9B016940E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CCB51D9-9E87-4F47-A4CE-7D1706B9FAA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CCB51D9-9E87-4F47-A4CE-7D1706B9FAA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CCB51D9-9E87-4F47-A4CE-7D1706B9FAA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CCB51D9-9E87-4F47-A4CE-7D1706B9FAA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A723B7A-B225-44C6-B665-D68F06E06A23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A723B7A-B225-44C6-B665-D68F06E06A23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A723B7A-B225-44C6-B665-D68F06E06A23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A723B7A-B225-44C6-B665-D68F06E06A23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB9EFD5B-4D9E-4F33-BD31-FA5170FC01AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB9EFD5B-4D9E-4F33-BD31-FA5170FC01AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB9EFD5B-4D9E-4F33-BD31-FA5170FC01AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB9EFD5B-4D9E-4F33-BD31-FA5170FC01AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FFA9E18-AF82-40FD-977E-4C33CD549419}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FFA9E18-AF82-40FD-977E-4C33CD549419}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FFA9E18-AF82-40FD-977E-4C33CD549419}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FFA9E18-AF82-40FD-977E-4C33CD549419}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11670A18-19A0-4DDF-B791-3BB95355D69D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11670A18-19A0-4DDF-B791-3BB95355D69D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11670A18-19A0-4DDF-B791-3BB95355D69D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11670A18-19A0-4DDF-B791-3BB95355D69D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D60BF04-C5A9-4EB7-AE9A-0C408665284E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D60BF04-C5A9-4EB7-AE9A-0C408665284E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D60BF04-C5A9-4EB7-AE9A-0C408665284E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D60BF04-C5A9-4EB7-AE9A-0C408665284E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8A723B7A-B225-44C6-B665-D68F06E06A23} = {E27ED549-2907-4643-A3C9-DAFDA207A7EC}
 	EndGlobalSection
 EndGlobal
